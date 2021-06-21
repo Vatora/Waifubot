@@ -1,2 +1,4 @@
 oauth2.json
 settings.json
+node_modules
+package-lock.json
