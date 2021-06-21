@@ -1,6 +1,6 @@
 const gelbooru   = require('./gelbooru.js');
-const totalPosts = require('./totalPosts.js');
-const charName   = require('./charName.js');
+const totalPosts = require('./totalposts.js');
+const charName   = require('./charname.js');
 const aliasList  = require('../config/aliases.json');
 const math       = require('mathjs');
 
@@ -71,3 +71,4 @@ function stringifyAliases() {
 
 module.exports.deliverWaifu     = deliverWaifu;
 module.exports.stringifyAliases = stringifyAliases;
+        
